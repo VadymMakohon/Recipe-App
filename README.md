@@ -42,7 +42,7 @@ This is the [link](https://github.com/VadymMakohon/) to the Github repo of the p
 
 ## Sample Website
 
-A live demo is already available via this [link](https://https://recipesapp-b0a097f75058.herokuapp.com)
+A live demo is already available via this [link](https://recipesapp-b0a097f75058.herokuapp.com/)
 
 ## 📜 License
 
