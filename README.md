@@ -7,7 +7,30 @@ This is a web-based Recipe Application built with Python and Django. It allows u
 ![preview chicken](https://github.com/user-attachments/assets/9f15d643-0960-43ab-aac5-cac29ac3e916)
 ![preview tiramisu](https://github.com/user-attachments/assets/00aee735-8006-4416-be59-0cfe00f0d5a3)
 
+## Key Features
+- User Authentication: Users can register, log in, and log out.
+- Recipe Search: Search recipes based on ingredients.
+- Difficulty Rating: Automatic difficulty rating for each recipe.
+- Error Handling: Handles errors like invalid inputs and provides user-friendly messages.
+- Recipe Details: View detailed information on each recipe.
+- Add Recipes: Users can add their own recipes to the app.
+- Django Admin Dashboard: Manage recipes, users, and data entries through the Django Admin interface.
+- Statistics & Visualizations: View trends and data analysis on recipes and user preferences.
 
+## Technical Requirements
+- Python 3.6+ and Django 3 required.
+- Handles exceptions and displays user-friendly error messages for invalid input.
+- During development, the app uses an SQLite database, while in production, it connects to a locally-hosted PostgreSQL database.
+- The app has an easy-to-use interface with clear instructions and forms.
+- Code is properly documented, with automated tests included.
+- A requirements.txt file lists all necessary modules for the project.
+- Instructions for downloading and running the app locally are provided below.
+
+## Installation Instructions
+1. Clone the repository:
+git clone https://github.com/yourusername/recipe-app.git
+cd recipe-app
+2. 
 
 ## Github repo
 
