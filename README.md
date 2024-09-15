@@ -27,10 +27,14 @@ This is a web-based Recipe Application built with Python and Django. It allows u
 - Instructions for downloading and running the app locally are provided below.
 
 ## Installation Instructions
-1. Clone the repository:
-git clone https://github.com/yourusername/recipe-app.git
-cd recipe-app
-2. 
+1. Clone the repository: git clone https://github.com/yourusername/recipe-app.git    cd recipe-app
+2. Create a virtual environment: python3 -m venv venv source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+3. Install dependencies: Install all the required modules listed in requirements.txt: pip install -r requirements.txt
+4. Set up the database: python manage.py migrate
+5. Create a superuser for Django Admin: python manage.py createsuperuser
+6. Run the development server: python manage.py runserver
+7. Access the app: http://127.0.0.1:8000/
+8. Access Django Admin to manage database entries through the admin dashboard, log in at http://127.0.0.1:8000/admin/
 
 ## Github repo
 
